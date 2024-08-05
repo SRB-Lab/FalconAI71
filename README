@@ -3,3 +3,6 @@ Powered by Falcon LLM (developed by the Technology Innovation Institute (TII) in
 The product specification includes LangChain, Streamlit
 
 Check the Requirements to install dependancy modules/libraries.
+
+Valid Falcon API Key is need to use "Conversational Chat Bot" within sAIsynergy.
+Valid Falcon API Key and Jina embeddings is need to use "Autonomous AI Agent" within sAIsynergy.
