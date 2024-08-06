@@ -3,8 +3,7 @@
     #pip install streamlit
     #pip install langchain
     #pip install faiss-gpu or pip install faiss-cpu
-    #pip install openai langchain (Falcon AI71)
-    #pip install LLMChain
+    #pip install openai
 
 
     #pip install tiktoken (explicit installation not required in latest version langchain)
@@ -297,11 +296,6 @@ api_url = st.session_state.apiURL
 max_iterations = st.session_state["promptNo"]
 
 print("api_url AGENT 111111111 :::::::::::::::::::::::::::::::::::", api_url)
-
-#jina_embedding_api_key = "jina_0ebca2c02a0f45c08c5b7611175a5f5evjTbCjf2warA_2CAqWGwfI-6boCL"
-#jina_embedding_api_key = st.session_state.jinaEmbedAPIkey
-
-print("jina_embedding_api_key :::::::::::::::::::::::", jina_embedding_api_key)
 
 if API_O:
         OBJECTIVE = st.text_input(
